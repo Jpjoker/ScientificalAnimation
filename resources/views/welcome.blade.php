@@ -13,7 +13,9 @@
 
     <!--NAVBAR DONE-->
     <header class="header-abso">
+
         <img class="logo" src="assests/images/logosmalll.png" alt="logo">
+
         <nav>
             <ul class="nav_links">
                 <li><a href="/services">Services</a></li>
@@ -95,13 +97,17 @@
 
             <article class="section2-article">
 
-                <div class="section2-images">
-                    <img src="" alt="">
+                <div class="section2-video">
+                    <video autoplay muted loop>
+                        <source src="assests/images/art.mp4" type="video/mp4">
+                    </video>
+
                 </div>
+
                 <h3>Patient Education Animations</h3>
                 <p>Our cellular and molecular animations provide a detailed visual representation of complex biological
                     processes, helping students and professionals understand the intricacies of the human body at a
-                    microscopic level.
+                    microscopic.
                 </p>
                 <button>Learn More</button>
 
@@ -109,8 +115,12 @@
 
             <article class="section2-article">
 
-                <div class="section2-images">
-                    <img src="" alt="">
+                <div class="section2-video">
+
+                    <video autoplay muted loop>
+                        <source id="myvideo" src="assests/images/trip.mp4" type="video/mp4">
+                    </video>
+
                 </div>
                 <h3>Mechanism of Action (MOA) Animations</h3>
                 <p>Our patient education animations are designed to simplify medical concepts and conditions, making it
@@ -124,14 +134,16 @@
 
             <article class="section2-article">
 
-                <div class="section2-images">
-                    <img src="" alt="">
+                <div class="section2-video">
+                    <!--
+                    <video autoplay muted loop>
+                        <source id="myvideo" src="assests/images/.mp4" type="video/mp4">
+                    </video>
+                -->
                 </div>
-
                 <h3>Molecular Mastery Animations Demystified</h3>
                 <p>Our mechanism of action (MOA) animations demonstrate how pharmaceutical drugs and medical devices
-                    interact with the body at a molecular level, providing a comprehensive understanding of their mode
-                    of
+                    interact with the body at a molecular level, providing a comprehensive understanding of their
                     action.
                 </p>
                 <button>Learn More </button>
@@ -155,6 +167,7 @@
                     complex medical concepts, captivate audiences, and empower patients to take control of their health.
                 </p>
                 <button>Learn More</button>
+                <button class="sign-up">Sign-up</button>
             </div>
         </div>
 
@@ -172,7 +185,7 @@
 
         <div class="section4-blok1">
             <div class="section4-title">
-                <h2>From Concept to Completion: Creating Stunning 3D medical Animations</h2>
+                <h2>Workflow</h2>
             </div>
         </div>
 
@@ -208,6 +221,20 @@
 
                 </article>
             </div>
+
+            <div class="section4-articles">
+                <article>
+                    <img src="" alt="">
+                    <h3>Bringing Ideas to Life: The Art of 3D Medical Animation</h3>
+                    <p>Our team of skilled animators and medical experts collaborate to transform complex medical
+                        concepts
+                        into captivating 3D animations.</p>
+                </article>
+            </div>
+        </div>
+
+        <div class="section4-button-middle">
+            <button>Learn More</button>
         </div>
     </section>
 
@@ -349,8 +376,9 @@
             <footer>
                 <div class="footer-blok1">
                     <div class="footer-title-text">
-
-                        <img class="logos" src="assests/images/logosmalll.png" alt="logo">
+                        <a href="/">
+                            <img class="logos" src="assests/images/logosmalll.png" alt="logo">
+                        </a>
                         <p><b>Address:</b></p>
                         <p>Level 1, 12 Sample St, Sydney NSW 2000</p>
                         <p><b>Contact</b></p>
@@ -413,11 +441,7 @@
 
 
 
-
-
-
-
-{{-- <!DOCTYPE html>
+< {{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">

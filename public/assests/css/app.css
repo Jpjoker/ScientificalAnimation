@@ -155,7 +155,7 @@ button:hover{
     padding: 0.5rem;
 }
 
-/*first-section TODO */
+/*first-section */
 
 .section1 {
     font-family: "Montserrat", sans-serif;
@@ -209,7 +209,117 @@ button:hover{
 
 /*seconde-section TODO*/
 
+.section2-title{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
 
+.section2-blok2 {
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.section2-video{
+    width: 500px;
+    height: 500px;
+}
+
+.section2-video video{
+   
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+
+
+.section2-article {
+    
+}
+
+/*third-section TODO*/
+
+.section3 {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+}
+
+.section3-blok1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 2rem;
+}
+
+
+.section3-blok2 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 2rem;
+
+}
+.section3-images {
+    display: flex;
+    align-items: right;
+    padding: 2rem;
+    margin-bottom: 100px;
+    margin-top: 170px;
+}
+
+.section3-images img {
+    width: 650px;
+    height: 550px;
+ 
+}
+
+.section3-title-and-text {
+    margin-top: 170px;
+    margin-bottom: 20px;
+    font-size: 24px;
+
+}
+
+/*four sectionb workflow 4 row*/
+
+.section4-blok1{
+
+    text-align: center;
+}
+
+.section4-blok2{
+    display: flex;
+}
+.section4-button-middle{
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+/*five section review 3 row*/
+.section5-blok1{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.section5-blok2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/*six section background video text extra*/
+
+/*seven section blog*/
+
+/*footer*/
 
 
 /*Laptop L 1440px*/
